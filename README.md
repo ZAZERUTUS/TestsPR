@@ -78,7 +78,8 @@ export BROWSER=chrome
 mvn allure:serve
 ```
 
-Данные хранятся в target/allure-results
+Данные хранятся в target/allure-results после запуска
+Для примера закинул в корень проекта данные в директории allure-results
 
 ## Доступные параметры
 
