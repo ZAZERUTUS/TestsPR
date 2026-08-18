@@ -126,12 +126,6 @@ public class AuthPage extends BasePage {
         return clickShowHidePassField(passwordRepeatField, isDisplay);
     }
 
-    @Step("ПРОСТО ТУПО ЖДУ")
-    public AuthPage waitttt() throws InterruptedException {
-        Thread.sleep(100000);
-        return this;
-    }
-
     @Step("Проверить валидность правил пароля")
     public AuthPage shouldHaveValidPasswordRules(String... rules) {
         for (String rule : rules) {

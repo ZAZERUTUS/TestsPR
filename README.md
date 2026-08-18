@@ -72,6 +72,14 @@ browser=firefox
 export BROWSER=chrome
 ```
 
+Запуск генерации отчёта алюр
+
+```bash
+mvn allure:serve
+```
+
+Данные хранятся в target/allure-results
+
 ## Доступные параметры
 
 | Параметр     | Переменная окружения | Описание                          |
